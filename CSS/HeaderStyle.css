@@ -1,0 +1,185 @@
+#header {
+    float:left;
+    margin:0px 50px 0px 50px;
+    width:100%;
+   
+    text-align:left;
+    padding: 10px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 1px 0px;
+}
+
+
+#wrapper{
+ 
+    
+    margin:0px 50px 0px 50px;
+   
+}
+.menu_bar{
+    width: 100%;
+    height: 50px;
+
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    color:yellow;
+
+}
+
+
+.menu_bar div a{
+    text-decoration: none;
+    position: relative;
+    top:15px;
+    color:yellow;
+margin-right:50px;
+}
+.menu_bar div a:hover{
+    text-decoration: none;
+    position: relative;
+    top:15px;
+    color:white;
+}
+.menu_bar .logo{
+    float: left;
+margin-left:50px;
+   
+}
+.menu_bar .title{
+    float: left;
+     margin-top:8px;
+     margin-left:10px;
+     font-size: 25px;
+}
+.menu_bar .home, .menu_bar .register,.menu_bar .login{
+     height: 50px;
+     float: right;
+    padding-right: 20px;
+    position: relative;
+        
+   
+}
+footer .footer_bar{
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    color:white;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+
+body {
+    
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1   {
+    color:blue;
+    text-align:center;
+    font-family: 'Roboto';
+
+}
+
+img  {
+    float:left;
+}
+
+#form_div{
+background-color:#ECECEC;
+width:40%;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
+padding: 45px 45px 50px 45px;
+margin: 0 auto;
+}
+
+#form_div input{
+height: 25px;   
+margin:3px 0;
+}
+#over
+{
+    style="position:absolute; width:100%; height:100%
+}
+.pagetitle{
+     width: 500px;
+     height:50px;
+     margin-top:120px;
+ 
+  background-color: #DEDEDE;
+  opacity: 0.6;
+  box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.25);
+  margin-left: 27%;
+  font-size: 25px;
+  text-align: center;
+
+}
+.container{
+  width: 400px;
+  max-width: 600px;
+ 
+  padding: 20px 50px;
+  background-color: #DEDEDE;
+  opacity: 0.6;
+  box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.25);
+  margin-left: 27%
+}
+.content{
+  width: 50%;
+  max-width: 600px;
+ margin:150px 200px 200px auto;
+  padding: 20px 50px;
+  background-color: #DEDEDE;
+  opacity: 0.5;
+  box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.25);
+
+}
+.myButton {
+    -moz-box-shadow: 0px 10px 14px -7px #3dc21b;
+    -webkit-box-shadow: 0px 10px 14px -7px #3dc21b;
+    box-shadow: 0px 10px 14px -7px #3dc21b;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
+    background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+    background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a',GradientType=0);
+    background-color:#44c767;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));
+    background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
+    background-color:#5cbf2a;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+input:required:invalid, input:focus:invalid { /* insert your own styles for invalid form input */ -moz-box-shadow: none; }
