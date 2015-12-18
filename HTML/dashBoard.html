@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning Point</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/HeaderStyle.css">
+   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,300italic,700' rel='stylesheet' type='text/css'>
+   <link rel="icon" type="image/png" href="../Images/logo.jpeg">
+
+</head>
+<body background="../Images/bgImage.jpeg"><body>
+
+<div id="wrapper">
+
+<div class="menu_bar">
+    <div class="logo"><img src="../Images/logo.jpeg" alt="Logo" height="50px" width="60px"></img>
+    </div>
+    <div class="title">Learning Point
+    </div>
+    
+    <div class="home"><a href="../HTML/New.html">Home</a></div>
+  </div>
+  <div class="content">
+      <div id="results"></div>
+      </div>
+
+  <footer>                        
+  <div class="footer_bar">
+    &copy; Copyright 2015 All Rights Reserved 
+  </div>
+</footer>
+
+</body>
+
+</html>
+
+
+     <script type="text/javascript">
+       function getQuerystring(){
+         var q=document.location.toString();
+         a=q.split("?");
+         b=a[1].split("&");
+         c=b[0].split("=");
+         d=c[1];
+       
+         
+         var str=""
+        
+           str="Hi "+d;
+                                          
+         document.getElementById("results").innerHTML=str
+                      }
+    onload=function(){
+           getQuerystring()
+                     }
+     </script>
